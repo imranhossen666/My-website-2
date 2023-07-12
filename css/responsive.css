@@ -1,0 +1,494 @@
+@media (max-width: 575.98px){
+
+    #nav {
+        padding: 50px 0 50px 0;
+    }
+    .nav-main ul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: linear-gradient(#ca08e473, #27eee470);
+        width: 0;
+        height: 100vh;
+        backdrop-filter: blur(20px);
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        z-index: 99;
+    }
+    .nav-main ul li a {
+        opacity: 0;
+    }
+    .testing {
+        opacity: 1 !important;
+    }
+    .menu {
+        width: 130px;
+        margin: 0 auto;
+    }
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        font-size: 20px;
+        background-color: rgba(134, 8, 134, 0.616);
+        color: #Fff;
+        padding: 10px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 98;
+        backdrop-filter: blur(20px);
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    .menu-close {
+        cursor: pointer;
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        background-color: rgba(240, 11, 137, 0.61);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(50%, -50%);
+        -webkit-transform: translate(50%, -50%);
+        -moz-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+        -o-transform: translate(50%, -50%);
+        backdrop-filter: blur(10px);
+    }
+    .menuBox-visible {
+        transform: scale(1) !important;
+        -webkit-transform: scale(1) !important;
+        -moz-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+        -o-transform: scale(1) !important;
+        animation: menuAnim 2s forwards;
+        -webkit-animation: menuAnim 2s forwards;
+    }
+    @keyframes menuAnim {
+        100% {
+            width: 50%;
+        }
+    }
+
+    .banner-text {
+        margin-top: 40px;
+    }
+    .banner-text h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .banner-text p {
+        font-size: 17px;
+        padding: 0 0;
+        margin-top: 20px;
+    }
+    .banner-btn {
+        margin-top: 30px;
+    
+    }
+    .banner-btn a {
+        padding: 9px 15px;
+        margin: 0 4px;
+        width: 130px;
+    }
+
+    #about {
+        padding: 50px 0 0 0;
+    }
+    .about-main {
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    .about-text h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .about-text p {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .a-s-text {
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .a-s-text p{
+        width: 100%;
+    }
+    .a-hover1, .a-hover2, .a-hover3, .a-hover4 {
+        top: 0;
+    }
+    .a-hover5, .a-hover6, .a-hover7, .a-hover8 {
+        top: 50px;
+    }
+    .a-hover9, .a-hover10, .a-hover11, .a-hover12 {
+        top: 100px;
+    }
+    .a-hover13, .a-hover14, .a-hover15, .a-hover16 {
+        top: 150px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    .c-1, .c-2, .c-3, .c-4, .c-5, .c-6, .c-7 {
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+    .circle h4 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    #port {
+        padding: 50px 0 0 0;
+    }
+    .port-main {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .port-items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .team-main {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .team-items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team-items h6 {
+        padding: 0 20px;
+    }
+    .team-over {
+        top: 55%;
+    }
+
+    .footer-main {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .f-one {
+        width: 100%;
+    }
+    .f-icon {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .f-two {
+        width: 100%;
+    }
+    .f-two h3 {
+        margin-top: 20px;
+    }
+    .con {
+        margin-top: 10px;
+        margin-left: 0;
+    } 
+    .f-menu {
+        margin: 20px 0 0 0;
+    }
+    .f-img {
+        width: 100%;
+    }
+    .f-img h3 {
+        margin-top: 20px;
+    }
+    .f-main {
+        margin-top: 10px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){     /* For small landscape */
+    #nav {
+        padding: 50px 0 50px 0;
+    }
+    .nav-main ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: linear-gradient(#ca08e473, #27eee470);
+        width: 0;
+        height: 100vh;
+        backdrop-filter: blur(20px);
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        z-index: 99;
+    }
+    .nav-main ul li a {
+        opacity: 0;
+    }
+    .testing {
+        opacity: 1 !important;
+    }
+    .menu {
+        width: 130px;
+    }
+    .menu-icon {
+        cursor: pointer;
+        display: block;
+        font-size: 20px;
+        background-color: rgba(134, 8, 134, 0.616);
+        color: #Fff;
+        padding: 10px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 98;
+        backdrop-filter: blur(20px);
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    .menu-close {
+        cursor: pointer;
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        background-color: rgba(240, 11, 137, 0.61);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(50%, -50%);
+        -webkit-transform: translate(50%, -50%);
+        -moz-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+        -o-transform: translate(50%, -50%);
+        backdrop-filter: blur(10px);
+    }
+    .menuBox-visible {
+        transform: scale(1) !important;
+        -webkit-transform: scale(1) !important;
+        -moz-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+        -o-transform: scale(1) !important;
+        animation: menuAnim 2s forwards;
+        -webkit-animation: menuAnim 2s forwards;
+    }
+    @keyframes menuAnim {
+        100% {
+            width: 50%;
+        }
+    }
+
+    .banner-text {
+        margin-top: 40px;
+    }
+    .banner-text h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .banner-text p {
+        font-size: 17px;
+        padding: 0 0;
+        margin-top: 20px;
+    }
+    .banner-btn {
+        margin-top: 30px;
+    
+    }
+    .banner-btn a {
+        padding: 9px 15px;
+        margin: 0 4px;
+        width: 130px;
+    }
+
+    #about {
+        padding: 50px 0 0 0;
+    }
+    .about-main {
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    .about-text h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .about-text p {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .a-s-text {
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .a-s-text p{
+        width: 100%;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    .c-1, .c-2, .c-3, .c-4, .c-5, .c-6, .c-7 {
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+    .circle h4 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    #port {
+        padding: 50px 0 0 0;
+    }
+    .port-main {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .port-items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .team-main {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .team-items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team-items h6 {
+        padding: 0 20px;
+    }
+    .team-over {
+        top: 55%;
+    }
+
+    .footer-main {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .f-one {
+        width: 100%;
+    }
+    .f-icon {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .f-two {
+        width: 100%;
+    }
+    .f-two h3 {
+        margin-top: 20px;
+    }
+    .con {
+        margin-top: 10px;
+        margin-left: 0;
+    } 
+    .f-menu {
+        margin: 20px 0 0 0;
+    }
+    .f-img {
+        width: 100%;
+    }
+    .f-img h3 {
+        margin-top: 20px;
+    }
+    .f-main {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){     /* For mediam tablet */
+    .banner-text p {
+        padding: 30px 50px;
+    }
+    .port-main {
+        justify-content: space-around;
+    }
+    .port-items {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+    .team-main {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+    .team-items {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+    .footer-main {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .f-one {
+        width: 50%;
+    }
+    .f-two {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){  
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+@media (min-width: 1400.98px){
+    
+}

@@ -9,7 +9,7 @@ img {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -42,6 +42,7 @@ img {
     text-decoration: none;
     color: yellow;
     display: block;
+    font-weight: 600;
 }
 
 .menu {
@@ -85,6 +86,13 @@ img {
     visibility: visible;
     bottom: 10px;
     right: 10px;
+}
+
+.menu-icon {
+    display: none;
+}
+.menu-close {
+    display: none;
 }
 /* nav part css end */
 
@@ -776,7 +784,7 @@ img {
 
 /* footer part end */
 footer {
-    padding: 70px 0;
+    padding: 70px 0 20px 0;
     background-color: #3333;
 }
 .footer-main {
@@ -785,7 +793,6 @@ footer {
 }
 .f-one {
     width: 30%;
-    
 }
 .f-one h3 {
     font-family: 'Oswald', sans-serif;
@@ -851,7 +858,8 @@ footer {
 .f-menu ul li i:hover {
     background-color: #e70fdc;
     color: #fff;
-    border: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .f-img {
